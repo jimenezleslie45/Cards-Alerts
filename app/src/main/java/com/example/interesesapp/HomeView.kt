@@ -83,7 +83,7 @@ fun ContentHomeView(paddingValues: PaddingValues){
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun HomeView(){
+fun HomeView(viewModel: PrestamoViewModel) {
     Scaffold( topBar = {
         CenterAlignedTopAppBar(
             title = { Text(text = "Calculadora Prestamos", color = Color.White)},
